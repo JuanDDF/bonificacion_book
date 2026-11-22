@@ -1,0 +1,8 @@
+COMPILAR EL BOOK (PowerShell, dentro de esta carpeta)
+
+python -m pip install -r requirements-docs.txt
+Remove-Item -Recurse -Force _build -ErrorAction SilentlyContinue
+jupyter-book build . --all
+start _build\html\intro.html
+
+Si 'jupyter-book' no se reconoce:  python -m jupyter_book build . --all

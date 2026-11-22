@@ -1,0 +1,17 @@
+title: Bonificación · Demostraciones de Deep Learning
+author: Juan David Díaz Fernández
+copyright: "2026"
+
+# El Book NO ejecuta el notebook: presenta las salidas ya guardadas en el .ipynb.
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - colon_fence
+    - html_image
+
+html:
+  use_repository_button: false
